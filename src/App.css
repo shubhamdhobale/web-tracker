@@ -1,0 +1,189 @@
+:root {
+  --color1: #010059;
+  --color2: #52437b;
+  --color3: #ff7a8a;
+  --color4: #fcf594;
+}
+body {
+  overflow-x: hidden;
+  font-weight: 300;
+}
+.container-main {
+  height: 100vh;
+  width: 100vw;
+  max-height: 100%;
+  max-width: 100%;
+}
+.container-header {
+  background: #333;
+  color: white;
+  font-size: 20px;
+  width: 100vw;
+  max-width: 100%;
+  height: 55px;
+  line-height: 55px;
+  padding-left: 10px;
+}
+.container-header button {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  height: 30px;
+  margin: 0px 7px 7px 7px;
+  border: none;
+  background: none;
+  font-size: 17px;
+  color: #ccc;
+  outline: none;
+}
+.container-header button:hover {
+  cursor: pointer;
+  color: white;
+}
+.container-header .logo {
+  margin: 0px 7px 7px 7px;
+  color: white;
+  font-size: 23px;
+}
+.container-header div {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  width: 1px;
+  height: 25px;
+  border-left: 1px solid #999;
+  margin: 0px 0px 7px 1px;
+}
+.piechart-container {
+  width: 65vw;
+  margin: 3vh auto;
+  min-width: 550px;
+}
+.time-buttons {
+  margin: 2vh auto;
+  text-align: center;
+  font-size: 25px;
+}
+.time-buttons button {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  color: #666;
+}
+.time-buttons .day {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: none;
+  padding-right: 7px;
+}
+.time-buttons .month {
+  border-left: none;
+  border-right: none;
+  background: none;
+}
+.time-buttons .all-time {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: none;
+  padding-left: 7px;
+}
+.time-buttons button:hover {
+  cursor: pointer;
+  color: #000;
+}
+.day-buttons {
+  margin: 4vh auto 0px;
+  text-align: center;
+  font-size: 25px;
+}
+.day-buttons button {
+  font-size: 18px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  color: #666;
+}
+.day-buttons .left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: none;
+}
+.day-buttons .right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: none;
+}
+.day-buttons .middle {
+  border-left: none;
+  border-right: none;
+  background: none;
+}
+.day-buttons button:hover {
+  cursor: pointer;
+  color: #000;
+}
+.insight-container {
+  width: 90vw;
+  height: 80%;
+  margin: 3vh auto;
+  min-width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.radar-container {
+  flex: 3;
+  display: flex;
+}
+p {
+  font-size: 14px;
+}
+.history-container {
+  width: 55vw;
+  margin: 3vh auto;
+  min-width: 550px;
+}
+.header-container {
+  text-align: center;
+}
+.date-header {
+  background: #eeeeee;
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 1.2em;
+}
+.topSitesTxt {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.noPrevContainer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noPrevDataTxt {
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 300;
+}
+.noPrevDataSm {
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 200;
+}

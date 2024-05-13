@@ -1,0 +1,20 @@
+body {
+    min-width: 175px;
+    min-height: 180px;
+}
+
+h2 {
+    margin: 8px auto 5px;
+}
+
+h4 {
+    margin: 5px 0px 4px;
+}
+
+button {
+    margin: 15px 0px 10px;
+}
+
+p {
+    margin: 0px;
+}
